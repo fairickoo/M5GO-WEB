@@ -1,5 +1,5 @@
 .WindowPage{
-    background-color: #fdfdfd;
+    background-color: #ffffff;
     min-height: 100vh;
     display: flex;
     flex-direction: column;
@@ -21,3 +21,4 @@
     border-top-right-radius: 500px; 
     border-bottom: 0;
 }
+

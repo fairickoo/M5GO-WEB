@@ -1,6 +1,5 @@
 import React,{Component} from "react"
 import "../Bg/Bg.css"
-
 class Bg extends Component{
     render(){
         return(

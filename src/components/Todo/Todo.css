@@ -1,0 +1,16 @@
+.todo{
+    position: absolute;
+    Top:140px;
+    left:180px;
+}
+h1.todoheader{
+    font-size: 100px;
+    width:300px;
+    height: 80px;
+    padding:  7px 100px 0 100px;
+    background:#999;
+    font-size: 50px;
+    color: white;
+    text-align: center;
+    border-radius: 20px;  
+}
