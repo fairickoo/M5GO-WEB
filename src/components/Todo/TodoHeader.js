@@ -3,10 +3,7 @@ import  "../Todo/Todo.css"
 class TodoHeader extends Component{
     render(){
         return(
-                <h1 className="todoheader">TODO LIST</h1>
-            
-                
-            
+                <h1 className="TodoHeader">TODO LIST</h1>
         );
     }
 }
