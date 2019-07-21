@@ -68,7 +68,7 @@ input[type=checkbox].box:after {
     background-color: #999999;
     display: inline-block;
     margin-left: 3px;
-    padding-bottom: 8px; 
+    padding-bottom: 10px; 
     padding-left: 3px;
     color:rgb(255, 255, 255);
     width: 20px;
@@ -87,11 +87,10 @@ input[type=checkbox].box:after {
       position: absolute;
       left: 465px;
       top:5px;
-      margin-left: 3px;
-      padding-bottom: 8px; 
+      margin-left: 3px; 
       padding-left: 3px;
-      width: 25px;
-      height: 30px;
+      width: 26px;
+      height: 33px;
       transform: scale(1.5);
       background: #999999;
       color: #fff;

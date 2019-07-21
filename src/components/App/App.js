@@ -12,12 +12,11 @@ class App extends Component {
       <div className="AppStyle">
           <Dayheader/>
           <Bg/>
-          <TodoSet/>
           <div className ="graph">
             <Graph/>
             <TimeSet/>
           </div>
-            
+          <TodoSet/>
             
         
       </div>
