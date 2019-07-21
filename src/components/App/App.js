@@ -4,6 +4,7 @@ import Bg from "../Bg/Bg.js"
 import Dayheader from "../Day/Dayheader.js"
 import Graph from "../Graph/Graph"
 import TodoSet from "../Todo/TodoSet.js"
+import TimeSet from"../Time/TimeSet.js"
 
 class App extends Component {
   render(){
@@ -11,10 +12,13 @@ class App extends Component {
       <div className="AppStyle">
           <Dayheader/>
           <Bg/>
+          <TodoSet/>
           <div className ="graph">
             <Graph/>
+            <TimeSet/>
           </div>
-            <TodoSet/>
+            
+            
         
       </div>
 
