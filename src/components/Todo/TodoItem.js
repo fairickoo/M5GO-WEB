@@ -28,7 +28,7 @@ class TodoItem extends Component{
             return null
         }
         return(
-            <div className="todoitem">
+            <div className="TodoItem">
                 <input className="box"
                     type="checkbox"
                     value={this.state.done}
@@ -39,7 +39,6 @@ class TodoItem extends Component{
                  value={this.state.remove}
                  onClick={this.removeItem}
                 >
-                    -
                 </button>
             </div>
         );

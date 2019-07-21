@@ -12,7 +12,7 @@ class TodoList extends Component{
                             <div className="list" kay={i}>
                                 <TodoItem className="listItem"
                                 text={todo}/>
-                             </div>
+                            </div>
                         )
                     }
                 </ul>
