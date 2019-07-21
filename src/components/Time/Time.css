@@ -44,7 +44,8 @@ button.StopReset:hover,button.ButtonStart:hover{
     color: #999999;
 }
 .TimeSet{
-    position: relative;
+    position: absolute;
+    width: 400px;
     left: 540px;
-    top:550px;
+    top:1000px;
 }
