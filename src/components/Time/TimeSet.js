@@ -54,8 +54,11 @@ class TimeSet extends Component{
         let {count} = this.state;
         return(
             <div className="TimeSet">
-            <TimeDisplay time={count}/>
+              <div className="one">
+              <TimeDisplay time={count}/>
             <TimeInput onSetCountdown={this.handleCountdown.bind(this)}/>
+              </div>
+            
             <TimeReSt className="stop" label="stop" onClickHandler={this.handleStop.bind(this)}/>
             <TimeReSt className="reset" label="reset" onClickHandler={this.handleReset.bind(this)}/>
             </div>

@@ -6,6 +6,7 @@ class TimeReSt extends Component{
         let {time}= this.props
         return(
                 <button className="StopReset" onClick={this.props.onClickHandler}>{this.props.label}</button>     
+            
         );
     }
 }
