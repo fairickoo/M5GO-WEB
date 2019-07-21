@@ -1,0 +1,24 @@
+.WindowPage{
+    background-color: #fdfdfd;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+.NevBar{
+    position: fixed;
+    background: #07EBEB;
+    width:100%;
+    height: 120px;;
+}
+.HalfCircle{
+    position: absolute;
+    left: 900px;
+    bottom:0px;
+    background:#07EBEB;
+    width: 650px;
+    height: 310px; 
+    
+    border-top-left-radius: 500px;  
+    border-top-right-radius: 500px; 
+    border-bottom: 0;
+}
